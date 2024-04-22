@@ -3,40 +3,19 @@ header{
     justify-content: space-between;
    
     
-    background-color: rgb(1, 1, 61);
+    background-color: #f2cdaf;
       
       
     color: white;
     list-style: none;
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid #bd7e4b;
 }
 main{
-   background-color: rgb(1, 1, 61);
+    background-color: #ddb99c;
     height: 800px;
+    background-image: url("../../assets/img/mapache-pedro.gif");
 }
-.contenedor{
-    margin-left: 190px;
-    
-    display: block;
-   border-radius: 15px ;
-   border: 2px solid  yellow;
-}
-.btn{
-    margin-right: 3px;
-    color: white;
-    
-}
-.card{
-    margin-left: 20px;
-}
-.caja{
-    padding: 5px;
-    border-radius: 15px ;
-   border: 2px solid white;
-    display: flex;
-    justify-content: center;
-    margin-left: 15px;
-}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -51,4 +30,20 @@ li{
 li:hover{
     cursor: pointer;
     border-bottom: 2px solid white;
+}
+.logo{
+    display: flex;
+}
+
+
+.pedro{
+   /*
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+  */
+  display: flex;
+  height: 150px;
+  
+
 }
