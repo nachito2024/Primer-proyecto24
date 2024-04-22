@@ -1,0 +1,54 @@
+header{
+    display: flex;
+    justify-content: space-between;
+   
+    
+    background-color: rgb(1, 1, 61);
+      
+      
+    color: white;
+    list-style: none;
+    border-bottom: 1px solid yellow;
+}
+main{
+   background-color: rgb(1, 1, 61);
+    height: 800px;
+}
+.contenedor{
+    margin-left: 190px;
+    
+    display: block;
+   border-radius: 15px ;
+   border: 2px solid  yellow;
+}
+.btn{
+    margin-right: 3px;
+    color: white;
+    
+}
+.card{
+    margin-left: 20px;
+}
+.caja{
+    padding: 5px;
+    border-radius: 15px ;
+   border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 3px;
+    
+}
+li{
+    margin-left: 20px;
+    margin-top: 10px;
+    display: block;
+}
+li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
