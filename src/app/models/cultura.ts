@@ -3,5 +3,6 @@ export interface Cultura {
     nombre: string;
     edad:number;
     imagen: string;
-    alt: string
+    alt: string;
+    raza:string
 }
