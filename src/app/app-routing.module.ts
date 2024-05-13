@@ -12,8 +12,10 @@ const routes: Routes = [
   },
   {
     path:"",loadChildren:()=>import('./modules/inicio/inicio.module').then(m=>m.InicioModule)
-  }
-
+  },
+  {
+    path:"",loadChildren:()=>import('./modules/producto/producto.module').then(m=>m.ProductoModule)
+  },
 ];
 
 @NgModule({

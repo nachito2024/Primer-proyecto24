@@ -29,12 +29,12 @@ export class CardComponent {
         alt: "una pistola"
       },
       {
-        id: "#00235",
+        id: "#00115",
         nombre: "yerba",
         edad: 23,
         raza:"yerbita",
         imagen: "https://th.bing.com/th/id/OIP.1QTN1IsD0CccahJnanVpbQHaE7?rs=1&pid=ImgDetMain",
-        alt: "una pistola"
+        alt: "marca de yerba"
       }
     ]
   }
