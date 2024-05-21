@@ -21,7 +21,13 @@ import { IndumentariaComponent } from './pages/indumentaria/indumentaria.compone
   ],
   imports: [
     CommonModule,
-    ProductoRoutingModule
+    ProductoRoutingModule,
+
+  ],
+  exports:[
+    ProductoComponent,
+    AlimentacionComponent,
+    IndumentariaComponent
   ]
 })
 export class ProductoModule { }

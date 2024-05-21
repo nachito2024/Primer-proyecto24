@@ -1,12 +1,10 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { VistaComponent } from './vista/vista.component';
+
 import { InicioComponent } from './modules/inicio/pages/inicio/inicio.component';
 
 const routes: Routes = [
-  // {path:"vista",component:VistaComponent},
-  // //vista
-  // {path:"",component:VistaComponent},
+  
   {
     path: "",component:InicioComponent
   },
@@ -16,6 +14,9 @@ const routes: Routes = [
   {
     path:"",loadChildren:()=>import('./modules/producto/producto.module').then(m=>m.ProductoModule)
   },
+  {
+    path:"",loadChildren:()=>import('./modules/autentificacion/autentificacion.module').then(m=>m.AutentificacionModule)
+  }
 ];
 
 @NgModule({

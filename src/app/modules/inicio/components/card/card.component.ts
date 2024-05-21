@@ -22,7 +22,7 @@ export class CardComponent {
       },
       {
         id: "#00235",
-        nombre: "yonatan",
+        nombre: "Pistola",
         edad: 23,
         raza:"hierro",
         imagen: "https://th.bing.com/th/id/R.3ad07f92f581fb78b474d78af0b9d9c6?rik=ZIxhYhrCzilvDQ&pid=ImgRaw&r=0",

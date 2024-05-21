@@ -7,13 +7,13 @@ import { IndumentariaComponent } from './pages/indumentaria/indumentaria.compone
 
 const routes: Routes = [
   {
-    path:"",component:ProductoComponent
+    path:"producto",component:ProductoComponent
   },
   {
-    path:"",component:AlimentacionComponent
+    path:"alimentacion",component:AlimentacionComponent
   },
   {
-    path:"",component:IndumentariaComponent
+    path:"indumentaria",component:IndumentariaComponent
   },
   //
   //
